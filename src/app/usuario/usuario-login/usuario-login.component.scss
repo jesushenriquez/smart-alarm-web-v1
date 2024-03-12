@@ -1,0 +1,22 @@
+@use '@angular/material/card';
+@use '@angular/material/form-field';
+
+.login-card {
+  @include mat-card-theme($theme);  // Include Material theme
+
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+mat-card-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+mat-form-field {
+  display: block;
+  width: 100%;
+  margin: 10px auto;
+}
